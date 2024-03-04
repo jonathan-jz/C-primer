@@ -1,0 +1,13 @@
+// 测试数据
+100 100 100 100 100 100
+1 2 3 4 5 6 7 8
+// 运行结果
+100 occurs 6 times
+1 occurs 1 times
+2 occurs 1 times
+3 occurs 1 times
+4 occurs 1 times
+5 occurs 1 times
+6 occurs 1 times
+7 occurs 1 times
+

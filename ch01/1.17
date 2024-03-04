@@ -1,0 +1,22 @@
+// 测试数据
+3 3 3 3
+4
+// 运行结果
+3 occurs 4 times
+// 测试数据
+5
+// 运行结果
+5 occurs 1 times
+// 测试数据
+6
+// 运行结果
+6 occurs 1 times
+// 测试数据
+7
+// 运行结果
+7 occurs 1 times
+// 测试数据
+8
+// 运行结果
+8 occurs 1 times
+
