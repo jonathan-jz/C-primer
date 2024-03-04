@@ -1,0 +1,10 @@
+while 循环的条件判断（condition）语句在每次执行完循环体（statement）语句都会执行，判断是否继续执行循环体。
+
+
+for 循环的初始化语句（init-statement）在循环开始的时候执行一次，之后执行判断语句（condition），若满足条件，则执行循环体（statement），循环体内的语句执行完后紧接着执行表达式（expression），表达式的作用一般是作用判断语句（condition），使循环在有限次内结束，而不是无限循环。当然 init-statement、conditon和expression这三条语句也可以为空语句（分号不可以省略）：
+
+也可以写多条，多条之间用逗号分隔：
+
+
+while 循环的优点是书写简单，缺点是程序员可能忘记在循环体（statement）内作用条件判断语句（condition），造成无限循环；for 循环的优点是规范、整洁，不易漏掉作用条件判断（condition）的表达式（expression），缺点是书写稍繁琐。while 循环适合循环次数不确定的情景；for 循环适合循环次数事先已知。
+
