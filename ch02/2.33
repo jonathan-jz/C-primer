@@ -1,0 +1,6 @@
+a=42; // a 是 int
+b=42; // b 是一个 int,(ci的顶层const在拷贝时被忽略掉了)
+c=42; // c 也是一个int
+d=42; // d 是一个 int *,所以语句非法
+e=42; // e 是一个 const int *, 所以语句非法
+g=42; // g 是一个 const int 的引用，引用都是底层const，所以不能被赋值
