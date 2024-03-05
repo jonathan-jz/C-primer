@@ -1,0 +1,8 @@
+
+int、long、long long 和 short 表示整型类型，C语言规定它们表示数的范围 short ≤ int ≤ long ≤ long long。其中，数据类型 long long 是在 C11 中新定义的；
+
+除去布尔型和扩展的字符型之外，其它整型可以划分为**带符号的（signed）和无符号的（unsigned）**两种。带符号类型可以表示正数、负数和 0，无符号类型则仅能表示大于等于 0 的值。类型 int、short、long 和 long long 都是带符号的，通过在这些类型名前添加 unsigned 就可以得到无符号类型，例如 unsigned long。类型 unsigned int 可以缩写为 unsigned；
+
+float 和 double 用于表示浮点数，其中，float 表示单精度浮点数，double 表示双精度浮点数。执行浮点数运算选用 double，这是因为 float 通常精度不够而且双精度浮点数和单精度浮点数的计算代价相差无几。事实上，对于某些机器来说，双精度运算甚至比单精度还快。long double 提供的精度在一般情况下是没有必要的，况且它带来的运算时消耗也不容忽视。
+
+单精度是这样的格式，1位符号，8位指数，23位小数。单精度是这样的格式，1位符号，8位指数，23位小数。
